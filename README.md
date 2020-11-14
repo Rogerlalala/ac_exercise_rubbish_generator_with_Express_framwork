@@ -16,6 +16,11 @@ Select a folder you want to setup, then execute the command below in your termin
 git clone https://github.com/Rogerlalala/ac_exercise_rubbish_generator_with_Express_framwork.git
 ```
 
+Execute the command below in your terminal to enter the project folder.
+```
+cd ac_exercise_rubbish_generator_with_Express_framwork
+```
+
 Execute the command below in your terminal to Install the npm.
 ```
 npm install
