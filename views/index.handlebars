@@ -11,9 +11,10 @@
             alt="developer">
         </div>
         <div class="form-check">
-          <input class="form-check-input" type="radio" name="Developer" id="Developer" value="Developer" checked>
-          <label class="form-check-label" for="Developer">
-            Developer
+          <input class="form-check-input" type="radio" name="job" value="engineer"
+            {{#if output.engineer}}checked{{/if}}>
+          <label class="form-check-label" for="engineer">
+            Engineer
           </label>
         </div>
       </div>
@@ -24,7 +25,8 @@
             alt="developer">
         </div>
         <div class="form-check">
-          <input class="form-check-input" type="radio" name="Designer" id="Designer" value="Designer">
+          <input class="form-check-input" type="radio" name="job" value="designer"
+            {{#if output.designer}}checked{{/if}}>
           <label class="form-check-label" for="Designer">
             Designer
           </label>
@@ -37,8 +39,9 @@
             alt="developer">
         </div>
         <div class="form-check">
-          <input class="form-check-input" type="radio" name="Enterpriser" id="Enterpriser" value="Enterpriser">
-          <label class="form-check-label" for="Enterpriser">
+          <input class="form-check-input" type="radio" name="job" value="entrepreneur"
+            {{#if output.entrepreneur}}checked{{/if}}>
+          <label class="form-check-label" for="entrepreneur">
             Enterpriser
           </label>
         </div>
@@ -50,7 +53,7 @@
         Rubbish!!!
       </button>
       <div class="output">
-        <p>Rubbish shows here!!!</p>
+        <p>{{output.rubbish}}</p>
       </div>
     </div>
   </form>
